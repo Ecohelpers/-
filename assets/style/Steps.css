@@ -1,0 +1,132 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.Header-1{
+    background-color: #008374;
+    box-shadow: 0 0 30px #008374;
+    width: 100%;
+    height: 465px;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: -2;
+}
+.Back{
+    height: 35px;
+    width: 160px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    border-radius: 85px;
+    border-style: solid;
+    background-color: #009d8b;
+    border-color: #007a6c;
+    box-shadow: 0 0 15px #006e61;
+    color: white;
+    border-width: 2px;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
+.Back:hover{
+    background-color: white;
+    color: #009d8b;
+    opacity: 0.9;
+    transition: ease 0.3s;
+    width: 165px;
+}
+.InfoText{
+    background-color: transparent;
+    margin: 60px auto;
+    width: 70%;
+    height: 200vh;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    z-index: 2;
+}
+.Question{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.Answer{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin: 50px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    z-index: 8;
+}
+.Designpicture{
+    height: 300px;
+    position: fixed;
+    left: 70%;
+    top: 90px;
+    z-index: 1;
+}
+.Fatigue{
+    height: 300px;
+    position: fixed;
+    left: 50px;
+    top: 100px;
+}
+.Informationsection123{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    left: 0;
+    top: 340px;
+}
+.First-step{
+    background-color: #008374;
+    box-shadow: 0 0 30px #006357;
+    height: 100%;
+    width: 150px;
+    position: relative;
+    left: 34%;
+    border-radius: 20px;
+    cursor: pointer;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.First-step:hover{
+    opacity: 0.8;
+    transition: ease 0.3s;
+    box-shadow: 0 0 60px #ffffff74;
+}
+.Second-step{
+    background-color: #008374;
+    box-shadow: 0 0 30px #006357;
+    height: 100%;
+    width: 150px;
+    position: relative;
+    left: 54%;
+    top: -240px;
+    border-radius: 20px;
+    cursor: pointer;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: 2;
+}
+.Firstimage{
+    height: 100px;
+    position: relative;
+    left: 25px;
+    top: 5px;
+}
+.Second-step:hover{
+    opacity: 0.8;
+    transition: ease 0.3s;
+    box-shadow: 0 0 60px #ffffff74;
+}

@@ -1,0 +1,18 @@
+.Information-section{
+    width: 98%;
+    height: 60px;
+    margin: 85px auto;
+    background-color: #008374;
+    box-shadow: 0 0 30px #00675b;
+    border-radius: 50px;
+    cursor: default;
+
+}
+.Information-section-info{
+    position: fixed;
+    left: 20%;
+    color: white;
+    font-size: 97%;
+    opacity: 0.5;
+    letter-spacing: 2.5px;
+}

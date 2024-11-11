@@ -1,0 +1,198 @@
+html{
+    scroll-behavior: smooth;
+}
+Body{
+    overflow-x: hidden;
+    background-color: #005348;
+}
+.Header1 {
+    background-color: #008374;
+    box-shadow: 0 0 30px #008374;
+    width: 100%;
+    height: 465px;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+}
+
+.Header2 {
+    background-color: #006e61;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    cursor: default;
+    z-index: 3;
+}
+
+.Gmail-logo {
+    height: 40px;
+    position: fixed;
+    top: -4px;
+    left: 4.2%;
+}
+
+.Gmail-address {
+    position: fixed;
+    top: -6px;
+    left: 10%;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 1;
+}
+
+.Mobile-logo {
+    height: 45px;
+    position: fixed;
+    top: -4px;
+    left: 27.5%;
+}
+
+.Mobile-phone {
+    position: fixed;
+    top: -8px;
+    left: 33.3%;
+    color: white;
+    font-size: 14px;
+}
+
+.X {
+    opacity: 0.4;
+    height: 18px;
+    position: fixed;
+    top: 5px;
+    left: 90%;
+    cursor: pointer;
+}
+
+.Instagram {
+    opacity: 0.4;
+    height: 20px;
+    position: fixed;
+    top: 5px;
+    left: 93%;
+    cursor: pointer;
+}
+
+.facebook {
+    opacity: 0.4;
+    height: 20px;
+    position: fixed;
+    top: 5px;
+    left: 96%;
+    cursor: pointer;
+}
+
+.X:hover {
+    opacity: 1;
+    transition: ease 0.3s;
+}
+
+.Instagram:hover {
+    opacity: 1;
+    transition: ease 0.3s;
+}
+
+.facebook:hover {
+    opacity: 1;
+    transition: ease 0.3s;
+}
+
+/* End of Fixed header2 */
+.Title {
+    position: absolute;
+    top: 40px;
+    left: 10%;
+    font-size: 21px;
+    color: white;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+.Title2 {
+    position: absolute;
+    top: 120px;
+    left: 10%;
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+.About {
+    position: absolute;
+    top: 170px;
+    left: 10%;
+    font-size: 11px;
+    background-color: transparent;
+    width: 30%;
+    color: white;
+    font-weight: bolder;
+    opacity: 0.5;
+}
+.SmallTip{
+    letter-spacing: 4px;
+    position: relative;
+    left: 63.5%;
+    top: -275px;
+    color: white;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.Photo {
+    height: 300px;
+    position: relative;
+    left: 67.5%;
+    top: 100px;
+}
+.Start{
+    height: 40px;
+    width: 170px;
+    position: absolute;
+    top: 250px;
+    left: 9.8%;
+    border-radius: 85px;
+    border-style: solid;
+    background-color: #009d8b;
+    border-color: #007a6c;
+    box-shadow: 0 0 15px #006e61;
+    color: white;
+    border-width: 2px;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
+.Start:hover{
+    opacity: 0.7;
+    transition: ease 0.3s;
+    background-color: white;
+    color: #009d8b;
+    box-shadow: 0 0 15px #005348;
+}
+.Video-Start{
+    height: 40px;
+    width: 170px;
+    position: absolute;
+    top: 300px;
+    left: 9.8%;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: transparent;
+    opacity: 0.5;
+}
+.Video-Start:hover{
+    opacity: 1;
+    transition: ease 0.3s;
+    
+}
+

@@ -1,0 +1,103 @@
+body{
+    overflow-y: hidden;
+}
+.TextHeader{
+    background-color: #007a6c;
+    height: 150vh;
+    width: 50%;
+    margin: -20px auto;
+    z-index: 3;
+}
+.Back{
+    height: 35px;
+    width: 160px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    border-radius: 85px;
+    border-style: solid;
+    background-color: #009d8b;
+    border-color: #007a6c;
+    box-shadow: 0 0 15px #006e61;
+    color: white;
+    border-width: 2px;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
+.Back:hover{
+    background-color: white;
+    color: #009d8b;
+    opacity: 0.9;
+    transition: ease 0.3s;
+    width: 165px;
+}
+.Textheaderinside{
+    background-color: transparent;
+    height: 50px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 80px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 4;
+}
+.Textheaderinside1{
+    background-color: transparent;
+    height: 50px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 80px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 4;
+}
+.Textheaderinside2{
+    background-color: transparent;
+    height: 50px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 160px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 4;
+}
+.Textheaderinside3{
+    background-color: transparent;
+    height: 50px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 250px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 4;
+}
+.Dizzy{
+    height: 230px;
+    width: 230px;
+    z-index: 1;
+    position: fixed;
+    top: 50px;
+    left: 77%;
+}
+.DizzyHeadache{
+    height: 390px;
+    width: 390px;
+    z-index: 1;
+    position: fixed;
+    top: 230px;
+    left: 1%;
+    transform: scaleX(-1);
+}

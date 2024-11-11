@@ -1,0 +1,173 @@
+@media (max-width:1000px){
+    .DizzyHeadache{
+        height: 390px;
+        width: 390px;
+        z-index: -1;
+        position: fixed;
+        top: 240px;
+        left: -100px;
+        transform: scaleX(-1);
+    }
+    .Dizzy{
+        height: 230px;
+        width: 230px;
+        z-index: 1;
+        position: fixed;
+        top: 390px;
+        left: 77%;
+    }
+}
+@media (max-width:825px){
+    .DizzyHeadache{
+        height: 390px;
+        width: 390px;
+        z-index: -1;
+        position: fixed;
+        top: 240px;
+        left: -150px;
+        transform: scaleX(-1);
+    }
+    .Dizzy{
+        height: 230px;
+        width: 230px;
+        z-index: 1;
+        position: fixed;
+        top: 390px;
+        left: 77%;
+    }
+    .TextHeader{
+        background-color: #007a6c;
+        height: 150vh;
+        width: 65%;
+        margin: -20px auto;
+        z-index: 3;
+    }
+}
+@media (max-width:642px){
+    .DizzyHeadache{
+        height: 390px;
+        width: 390px;
+        z-index: -1;
+        position: fixed;
+        top: 240px;
+        left: -150px;
+        transform: scaleX(-1);
+    }
+    .Dizzy{
+        height: 230px;
+        width: 230px;
+        z-index: 1;
+        position: fixed;
+        top: 390px;
+        left: 77%;
+    }
+    .TextHeader{
+        background-color: #007a6c;
+        height: 150vh;
+        width: 65%;
+        margin: -20px auto;
+        z-index: 3;
+    }
+}
+@media (max-width:666px){
+    .DizzyHeadache{
+        height: 390px;
+        width: 390px;
+        z-index: -1;
+        position: fixed;
+        top: 240px;
+        left: -150px;
+        transform: scaleX(-1);
+    }
+    .Dizzy{
+        height: 230px;
+        width: 230px;
+        z-index: 1;
+        position: fixed;
+        top: 390px;
+        left: 77%;
+    }
+    .TextHeader{
+        background-color: #007a6c;
+        height: 150vh;
+        width: 65%;
+        margin: -20px auto;
+        z-index: 3;
+    }
+    .Text-Text{
+        font-size: 12px;
+    }
+    .Textheaderinside{
+        position: relative;
+        left: 5%;
+        top: 50px;
+
+    }
+    .Textheaderinside1{
+        position: relative;
+        left: 5%;
+        top: 40px;
+
+    }
+    .Textheaderinside2{
+        position: relative;
+        left: 5%;
+        top: 120px;
+    }
+    .Textheaderinside3{
+        position: relative;
+        left: 5%;
+        top: 240px;
+    }
+}
+@media (max-width:484px){
+    .DizzyHeadache{
+        height: 310px;
+        width: 310px;
+        z-index: -1;
+        position: fixed;
+        top: 290px;
+        left: -150px;
+        transform: scaleX(-1);
+    }
+    .Dizzy{
+        height: 230px;
+        width: 230px;
+        z-index: 1;
+        position: fixed;
+        top: 390px;
+        left: 77%;
+    }
+    .TextHeader{
+        background-color: #007a6c;
+        height: 150vh;
+        width: 65%;
+        margin: -20px auto;
+        z-index: 3;
+    }
+    .Text-Text{
+        font-size: 9px;
+    }
+    .Textheaderinside{
+        position: relative;
+        left: 5%;
+        top: 40px;
+
+    }
+    .Textheaderinside1{
+        position: relative;
+        left: 5%;
+        top: 20px;
+
+    }
+    .Textheaderinside2{
+        position: relative;
+        left: 5%;
+        top: 115px;
+    }
+    .Textheaderinside3{
+        position: relative;
+        left: 5%;
+        top: 240px;
+    }
+}

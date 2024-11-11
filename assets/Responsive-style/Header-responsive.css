@@ -1,0 +1,201 @@
+@media (max-width: 1065px){
+    .Gmail-logo {
+        height: 40px;
+        position: fixed;
+        top: -4px;
+        left: 43px;
+    }
+    .Gmail-address{
+        position: fixed;
+        top: -6px;
+        left: 110px;
+    }
+    .Mobile-logo{
+        position: fixed;
+        top: -4px;
+        left: 300px;
+    }
+    .Mobile-phone{
+        position: fixed;
+        top: -8px;
+        left: 370px;
+    }
+    .About{
+        width: 300px;
+    }
+    .Photo{
+        position: relative;
+        left: 61.5%;
+    }
+    .SmallTip{
+        letter-spacing: 1px;
+        font-size: 14px;
+        position: relative;
+        left: 58.5%;
+    }
+    .X{
+        height: 13px;
+        position: fixed;
+        top: 7px;
+        left: 87%;
+        
+    }
+    .Instagram {
+        height: 13px;
+        position: fixed;
+        top: 7px;
+        left: 90%;
+    }
+    .facebook {
+        height: 13px;
+        position: fixed;
+        top: 7px;
+        left: 93.3%;
+    }
+    .Information-section-info{
+        position: fixed;
+        left: 9%;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
+@media (max-width: 618px){
+    .Information-section-info{
+        position: fixed;
+        left: 9%;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .Gmail-logo {
+        height: 40px;
+        position: fixed;
+        top: -4px;
+        left: 5px;
+    }
+    .Gmail-address{
+        position: fixed;
+        top: -6px;
+        left: 70px;
+    }
+    .Mobile-logo{
+        position: fixed;
+        top: -4px;
+        left: 260px;
+    }
+    .Mobile-phone{
+        position: fixed;
+        top: -8px;
+        left: 330px;
+    }
+    .Photo{
+        position: relative;
+        left: 51.5%;
+    }
+    .About{
+        width: 300px;
+        z-index: 1;
+    }
+    .SmallTip{
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        position: relative;
+        left: 58.5%;
+        top: -250px;
+    }
+}
+@media (max-width: 538px){
+    .Gmail-logo {
+        height: 40px;
+        position: fixed;
+        top: -4px;
+        left: -30px;
+    }
+    .Gmail-address{
+        position: fixed;
+        top: -1px;
+        left: 35px;
+        font-size: 10px;
+    }
+    .Mobile-logo{
+        position: fixed;
+        top: -4px;
+        left: 180px;
+    }
+    .Mobile-phone{
+        position: fixed;
+        top: -1px;
+        left: 250px;
+        font-size: 10px;
+    }
+    .X{
+        height: 13px;
+        position: fixed;
+        top: 7px;
+        left: 83%;
+        
+    }
+    .Instagram {
+        height: 13px;
+        position: fixed;
+        top: 7px;
+        left: 88%;
+    }
+    .facebook {
+        height: 13px;
+        position: fixed;
+        top: 7px;
+        left: 93.3%;
+    }
+    .Photo{
+        position: relative;
+        left: 45.5%;
+    }
+    .SmallTip{
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        position: relative;
+        left: 55.5%;
+        top: -250px;
+    }
+    @media (max-width: 390px){
+        .X{
+            height: 13px;
+            position: fixed;
+            top: 40px;
+            left: 80%;
+            
+        }
+        .Instagram {
+            height: 13px;
+            position: fixed;
+            top: 40px;
+            left: 87%;
+        }
+        .facebook {
+            height: 13px;
+            position: fixed;
+            top: 40px;
+            left: 94.3%;
+        }
+        .Start{
+            z-index: 1;
+        }
+        .Video-Start{
+            z-index: 1;
+        }
+        .Photo{
+            position: relative;
+            left: 20.5%;
+        }
+        .SmallTip{
+            letter-spacing: 0.5px;
+            font-size: 10px;
+            position: relative;
+            left: 23.5%;
+            top: 100px;
+            color: transparent;
+        }
+    }
+
+
+}
